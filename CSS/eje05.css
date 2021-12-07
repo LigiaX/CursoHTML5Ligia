@@ -1,0 +1,14 @@
+span > strong{
+    color:darkgreen;
+}
+
+h1 + h3{
+    color:coral
+};
+
+h1 + h2{
+    color:darkred;
+}
+
+a[class]{color:indigo}
+</style>

@@ -1,0 +1,190 @@
+/*Punto 5 */
+/* #1 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #2  */
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* #3 */
+h1{font-size: 40px;}
+h2{font-size: 32px;}
+h3{font-size: 28px;}
+h4{font-size: 24px;}
+h5{font-size: 20px;}
+h6{font-size: 16px;}
+
+/* #4 */
+p{
+    font-size: 16px;
+    line-height: 1.7em;
+    margin: 10px;
+}
+
+/* #5 */
+a{
+    text-decoration: none;
+    color: saddlebrown;
+}
+
+/* #6 */
+.titulo-1{
+    font-size: 88px;
+    font-weight: 300;
+}
+
+/* #7 */
+.titulo-2{
+    font-size: 56px;
+    font-weight: 300;
+}
+
+/* #8 */
+#principal{
+    background-image: url('../img/showcase.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color:#fff;
+    padding-top: 160px;
+}
+
+/* #9 */
+#principal h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* #10 */
+#principal p{
+    width: 70%;
+    padding-bottom: 40px;
+}
+
+/* #11 */
+#secc-description{
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+/* #12 */
+#descripcion h2{
+    padding-bottom: 20px;
+}
+
+/* #13 */
+#fil-descripcion{
+    padding-top: 20px;
+}
+
+/* #14 */
+#col-descripcion{
+    float: left;
+    width: 33%;
+    padding:25px;
+
+}
+
+/* #15 */
+#opiniones{
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align:center ;
+    font-weight: 300;
+    color:#fff;
+}
+
+/* #16 */
+#opiniones h4{
+    padding-bottom: 40px;
+}
+
+/* #17 */
+#opiniones img{
+    padding-bottom: 40px;
+    border-radius: 50%;
+}
+
+/* #18 */
+#opiniones p{
+    margin: 0 auto;
+    width: 70%;
+}
+
+/* #19 */
+cliente.opiniones{
+    padding-top: 20px;
+}
+
+/* #20 */
+#productos{
+    background-color: #f9f9f9;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align:center;
+}
+
+/* #21 */
+#fil-productos{
+    padding-top: 20px;
+}
+
+/* #22 */
+#col-productos{
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+/* #23 */
+img{
+    width: 100%;
+}
+
+/* #24 */
+sobre-market{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/* #25 */
+.lugar-imagen{
+    float: left;
+    width: 50%;
+    padding: 40px;
+}
+
+/* #26 */
+img.lugar-imagen{
+    width: 100%;
+}
+
+/* #27 */
+.texto-sobre-market{
+    float: right;
+    width: 50%;
+    padding:  150 px 50 px;
+}
+
+/* #28 */
+parrafo.texto-sobre-market{
+    padding-top: 20px;
+}
+
+/* #29 */
+footer{
+    background-color: #F9F9F9;
+    text-align: center;
+    padding: 20px;
+}
+
