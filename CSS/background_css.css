@@ -1,0 +1,34 @@
+/*body{
+    background-color: darkgreen;
+}*/
+
+/*body{
+    background-image: url('../img/escuela.jpg');
+}*/
+
+#caja1{
+background-image: url('../img/help.jpeg');
+background-repeat: no-repeat ;
+background-position: bottom left;
+background-attachment: scroll;
+border: #336699 dashed;
+}
+
+
+#caja2{
+    background-image: url('../img/help.jpeg');
+    background-repeat: no-repeat ;
+    background-position: right top;
+    border: #336699 dashed;
+}
+
+#caja3{
+    background-image: url('../img/help.jpeg');
+    background-repeat: no-repeat ;
+    background-position: 50 % 50%;
+    border: #336699 dashed;
+}
+
+div{
+    height:1000px;
+}
