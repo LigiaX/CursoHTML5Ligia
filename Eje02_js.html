@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segundo ejemplo JS</title>
+    <script>
+        function alerta(){
+            alert('Hizo clic!');
+        }
+        function HacerClic(){
+            document.getElementsByTagName('p')[1].onclick = alerta;
+        }
+        window.onload = HacerClic;
+    </script>
+</head>
+<body>
+    <div id="Principal"></p>
+       <p id="uno">Clic al parrafo 1</p>
+       <p id="dos">Clic al parrafo 2</p>
+       <button>Clic al boton</button>
+       <input type="button" value="clic al segundo boton">
+    </div>
+
+</body>
+</html>
